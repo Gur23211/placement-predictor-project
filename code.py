@@ -39,12 +39,12 @@ class PlacementBackend:
                 text += "• Solve more DSA problems\n"
             if aptitude < 70:
                 text += "• Practice aptitude questions\n"
-            if certifications < 2:
+            if certifications < 3:
                 text += "• Complete more certifications\n"
             if internships < 1:
                 text += "• Apply for internships\n"
             if projects < 2:
-                text += "• Work on more projects\n"
+                text += "•  should Work on more projects\n"
 
         else:
             text = " High chance of placement\n\nNext Focus:\n"
@@ -52,7 +52,7 @@ class PlacementBackend:
             text += "• Improve resume\n"
             text += "• Practice HR questions\n"
             text += "• Focus on company-specific coding rounds\n"
-            if certifications < 4:
+            if certifications < 5:
                 text += "• Add relevant certifications\n"
             if internships < 2:
                 text += "• Gain more internship experience\n"
