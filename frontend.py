@@ -46,7 +46,7 @@ frame = tk.Frame(root, bg="#66cdaa", padx=20, pady=20)
 frame.place(relx=0.5, rely=0.5, anchor="center")
 
 # Heading
-tk.Label(frame, text="Student Placement Predictor", font=("Arial", 24, "bold"), bg="white").pack(pady=10)
+tk.Label(frame, text="Student Placement Predictor", font=("Arial", 25, "bold"), bg="white").pack(pady=10)
 
 # CGPA
 tk.Label(frame, text="Enter CGPA", bg="white", font=("Arial", 14)).pack()
@@ -54,7 +54,7 @@ entry_cgpa = tk.Entry(frame, font=("Arial", 14))
 entry_cgpa.pack(pady=5)
 
 # DSA
-tk.Label(frame, text="Enter DSA Solved", bg="white", font=("Arial", 14)).pack()
+tk.Label(frame, text="Enter DSA Solved", bg="white", font=("Arial", 15)).pack()
 entry_dsa = tk.Entry(frame, font=("Arial", 14))
 entry_dsa.pack(pady=5)
 
