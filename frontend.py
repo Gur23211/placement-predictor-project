@@ -83,6 +83,6 @@ tk.Button(frame, text="Predict", command=predict, bg="green", fg="white", font=(
 
 # Output Label
 output_label = tk.Label(frame, text="", font=("Arial", 14), bg="white", justify="left")
-output_label.pack(pady=10)
+output_label.pack(pady=11)
 
 root.mainloop()
