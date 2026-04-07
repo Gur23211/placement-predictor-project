@@ -65,7 +65,7 @@ entry_aptitude.pack(pady=5)
 
 # Certifications
 tk.Label(frame, text="Enter Number of Certifications", bg="white", font=("Arial", 14)).pack()
-entry_certifications = tk.Entry(frame, font=("Arial", 14))
+entry_certifications = tk.Entry(frame, font=("Arial", 15))
 entry_certifications.pack(pady=5)
 
 # Internships
